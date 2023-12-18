@@ -1,0 +1,39 @@
+12-Dec-2023 13:05:38.360 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.83
+12-Dec-2023 13:05:38.367 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 9 2023 20:57:42 UTC
+12-Dec-2023 13:05:38.367 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.83.0
+12-Dec-2023 13:05:38.368 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+12-Dec-2023 13:05:38.368 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+12-Dec-2023 13:05:38.368 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+12-Dec-2023 13:05:38.368 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-21
+12-Dec-2023 13:05:38.368 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           21.0.1+12-LTS-29
+12-Dec-2023 13:05:38.369 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+12-Dec-2023 13:05:38.369 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\University\3rd_year\1st_term\Distributed System Programming\Project Assignments\T3 - REST API Primes\T3\primes-api
+12-Dec-2023 13:05:38.370 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\University\3rd_year\1st_term\Distributed System Programming\Project Assignments\T3 - REST API Primes\Apache Tomcat
+12-Dec-2023 13:05:38.385 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+12-Dec-2023 13:05:38.385 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+12-Dec-2023 13:05:38.385 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+12-Dec-2023 13:05:38.385 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+12-Dec-2023 13:05:38.385 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+12-Dec-2023 13:05:38.386 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:\University\3rd_year\1st_term\Distributed System Programming\Project Assignments\T3 - REST API Primes\Apache Tomcat
+12-Dec-2023 13:05:38.386 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:\University\3rd_year\1st_term\Distributed System Programming\Project Assignments\T3 - REST API Primes\T3\primes-api
+12-Dec-2023 13:05:38.386 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\University\3rd_year\1st_term\Distributed System Programming\Project Assignments\T3 - REST API Primes\T3\primes-api\temp
+12-Dec-2023 13:05:38.387 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:\University\3rd_year\1st_term\Distributed System Programming\Project Assignments\T3 - REST API Primes\T3\primes-api\conf\logging.properties
+12-Dec-2023 13:05:38.387 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+12-Dec-2023 13:05:38.387 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2023.2.5\lib\idea_rt.jar=54509:C:\Program Files\JetBrains\IntelliJ IDEA 2023.2.5\bin
+12-Dec-2023 13:05:38.387 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+12-Dec-2023 13:05:38.387 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stdout.encoding=UTF-8
+12-Dec-2023 13:05:38.387 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stderr.encoding=UTF-8
+12-Dec-2023 13:05:38.671 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.39] using APR version [1.7.4].
+12-Dec-2023 13:05:38.671 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+12-Dec-2023 13:05:38.671 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+12-Dec-2023 13:05:38.681 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.0.11 19 Sep 2023]
+12-Dec-2023 13:05:39.224 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8082"]
+12-Dec-2023 13:05:39.253 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1198] milliseconds
+12-Dec-2023 13:05:39.316 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+12-Dec-2023 13:05:39.316 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.83]
+12-Dec-2023 13:05:39.327 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [D:\University\3rd_year\1st_term\Distributed System Programming\Project Assignments\T3 - REST API Primes\T3\primes-api\conf\Catalina\localhost\primes-api.xml]
+12-Dec-2023 13:05:42.163 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+12-Dec-2023 13:05:42.984 INFO [main] org.glassfish.jersey.server.ApplicationHandler.initialize Initiating Jersey application, version Jersey: 2.6 2014-02-18 21:52:53...
+12-Dec-2023 13:05:43.469 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\University\3rd_year\1st_term\Distributed System Programming\Project Assignments\T3 - REST API Primes\T3\primes-api\conf\Catalina\localhost\primes-api.xml] has finished in [4,142] ms
+12-Dec-2023 13:05:43.473 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8082"]
+12-Dec-2023 13:05:43.499 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [4243] milliseconds

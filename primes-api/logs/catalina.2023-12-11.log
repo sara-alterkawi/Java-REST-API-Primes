@@ -1,0 +1,711 @@
+11-Dec-2023 09:35:58.871 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.83
+11-Dec-2023 09:35:58.877 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 9 2023 20:57:42 UTC
+11-Dec-2023 09:35:58.877 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.83.0
+11-Dec-2023 09:35:58.877 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+11-Dec-2023 09:35:58.877 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+11-Dec-2023 09:35:58.878 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+11-Dec-2023 09:35:58.878 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-21
+11-Dec-2023 09:35:58.878 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           21.0.1+12-LTS-29
+11-Dec-2023 09:35:58.878 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+11-Dec-2023 09:35:58.878 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\University\3rd_year\1st_term\Distributed System Programming\Project Assignments\T3 - REST API Primes\T3\primes-api
+11-Dec-2023 09:35:58.878 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\University\3rd_year\1st_term\Distributed System Programming\Project Assignments\T3 - REST API Primes\Apache Tomcat
+11-Dec-2023 09:35:58.889 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+11-Dec-2023 09:35:58.890 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+11-Dec-2023 09:35:58.890 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+11-Dec-2023 09:35:58.890 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+11-Dec-2023 09:35:58.890 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+11-Dec-2023 09:35:58.890 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:\University\3rd_year\1st_term\Distributed System Programming\Project Assignments\T3 - REST API Primes\Apache Tomcat
+11-Dec-2023 09:35:58.890 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:\University\3rd_year\1st_term\Distributed System Programming\Project Assignments\T3 - REST API Primes\T3\primes-api
+11-Dec-2023 09:35:58.891 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\University\3rd_year\1st_term\Distributed System Programming\Project Assignments\T3 - REST API Primes\T3\primes-api\temp
+11-Dec-2023 09:35:58.891 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:\University\3rd_year\1st_term\Distributed System Programming\Project Assignments\T3 - REST API Primes\T3\primes-api\conf\logging.properties
+11-Dec-2023 09:35:58.891 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+11-Dec-2023 09:35:58.891 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2023.2.5\lib\idea_rt.jar=59472:C:\Program Files\JetBrains\IntelliJ IDEA 2023.2.5\bin
+11-Dec-2023 09:35:58.891 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+11-Dec-2023 09:35:58.891 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stdout.encoding=UTF-8
+11-Dec-2023 09:35:58.891 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stderr.encoding=UTF-8
+11-Dec-2023 09:35:58.896 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.39] using APR version [1.7.4].
+11-Dec-2023 09:35:58.896 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+11-Dec-2023 09:35:58.896 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+11-Dec-2023 09:35:58.907 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.0.11 19 Sep 2023]
+11-Dec-2023 09:35:59.483 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8082"]
+11-Dec-2023 09:35:59.512 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [983] milliseconds
+11-Dec-2023 09:35:59.573 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+11-Dec-2023 09:35:59.573 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.83]
+11-Dec-2023 09:35:59.586 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [D:\University\3rd_year\1st_term\Distributed System Programming\Project Assignments\T3 - REST API Primes\T3\primes-api\conf\Catalina\localhost\primes-api.xml]
+11-Dec-2023 09:36:02.289 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+11-Dec-2023 09:36:03.146 INFO [main] org.glassfish.jersey.server.ApplicationHandler.initialize Initiating Jersey application, version Jersey: 2.6 2014-02-18 21:52:53...
+11-Dec-2023 09:36:03.655 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\University\3rd_year\1st_term\Distributed System Programming\Project Assignments\T3 - REST API Primes\T3\primes-api\conf\Catalina\localhost\primes-api.xml] has finished in [4,067] ms
+11-Dec-2023 09:36:03.660 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8082"]
+11-Dec-2023 09:36:03.690 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [4175] milliseconds
+11-Dec-2023 09:36:23.692 INFO [Catalina-utility-2] org.apache.catalina.users.MemoryUserDatabase.backgroundProcess Reloading memory user database [UserDatabase] from updated source [file:/D:/University/3rd_year/1st_term/Distributed%20System%20Programming/Project%20Assignments/T3%20-%20REST%20API%20Primes/T3/primes-api/conf/tomcat-users.xml]
+11-Dec-2023 09:36:23.693 SEVERE [Catalina-utility-2] org.apache.catalina.users.MemoryUserDatabase.open The specified user database [conf/tomcat-users.xml] could not be found
+11-Dec-2023 09:36:24.207 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/primes-api]
+11-Dec-2023 09:36:24.216 WARNING [Catalina-utility-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [primes-api] appears to have started a thread named [Thread-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/java.lang.Thread.sleep0(Native Method)
+ java.base/java.lang.Thread.sleep(Thread.java:509)
+ org.example.prime.SharingUnit.lambda$startAutoRefresh$0(SharingUnit.java:44)
+ java.base/java.lang.Thread.run(Thread.java:1583)
+11-Dec-2023 09:36:54.019 INFO [Thread-2] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8082"]
+11-Dec-2023 09:36:54.023 INFO [Thread-2] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+11-Dec-2023 09:36:54.025 INFO [Thread-2] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8082"]
+11-Dec-2023 09:36:54.030 INFO [Thread-2] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8082"]
+11-Dec-2023 09:39:03.606 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.83
+11-Dec-2023 09:39:03.611 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 9 2023 20:57:42 UTC
+11-Dec-2023 09:39:03.611 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.83.0
+11-Dec-2023 09:39:03.611 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+11-Dec-2023 09:39:03.612 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+11-Dec-2023 09:39:03.612 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+11-Dec-2023 09:39:03.612 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-21
+11-Dec-2023 09:39:03.612 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           21.0.1+12-LTS-29
+11-Dec-2023 09:39:03.612 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+11-Dec-2023 09:39:03.612 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\University\3rd_year\1st_term\Distributed System Programming\Project Assignments\T3 - REST API Primes\T3\primes-api
+11-Dec-2023 09:39:03.612 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\University\3rd_year\1st_term\Distributed System Programming\Project Assignments\T3 - REST API Primes\Apache Tomcat
+11-Dec-2023 09:39:03.622 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+11-Dec-2023 09:39:03.623 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+11-Dec-2023 09:39:03.623 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+11-Dec-2023 09:39:03.623 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+11-Dec-2023 09:39:03.623 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+11-Dec-2023 09:39:03.624 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:\University\3rd_year\1st_term\Distributed System Programming\Project Assignments\T3 - REST API Primes\Apache Tomcat
+11-Dec-2023 09:39:03.624 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:\University\3rd_year\1st_term\Distributed System Programming\Project Assignments\T3 - REST API Primes\T3\primes-api
+11-Dec-2023 09:39:03.624 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\University\3rd_year\1st_term\Distributed System Programming\Project Assignments\T3 - REST API Primes\T3\primes-api\temp
+11-Dec-2023 09:39:03.624 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:\University\3rd_year\1st_term\Distributed System Programming\Project Assignments\T3 - REST API Primes\T3\primes-api\conf\logging.properties
+11-Dec-2023 09:39:03.624 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+11-Dec-2023 09:39:03.625 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2023.2.5\lib\idea_rt.jar=59515:C:\Program Files\JetBrains\IntelliJ IDEA 2023.2.5\bin
+11-Dec-2023 09:39:03.625 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+11-Dec-2023 09:39:03.625 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stdout.encoding=UTF-8
+11-Dec-2023 09:39:03.625 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stderr.encoding=UTF-8
+11-Dec-2023 09:39:03.629 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.39] using APR version [1.7.4].
+11-Dec-2023 09:39:03.629 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+11-Dec-2023 09:39:03.629 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+11-Dec-2023 09:39:03.638 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.0.11 19 Sep 2023]
+11-Dec-2023 09:39:04.241 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8082"]
+11-Dec-2023 09:39:04.269 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1009] milliseconds
+11-Dec-2023 09:39:04.334 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+11-Dec-2023 09:39:04.334 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.83]
+11-Dec-2023 09:39:04.349 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [D:\University\3rd_year\1st_term\Distributed System Programming\Project Assignments\T3 - REST API Primes\T3\primes-api\conf\Catalina\localhost\primes-api.xml]
+11-Dec-2023 09:39:07.405 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+11-Dec-2023 09:39:08.133 INFO [main] org.glassfish.jersey.server.ApplicationHandler.initialize Initiating Jersey application, version Jersey: 2.6 2014-02-18 21:52:53...
+11-Dec-2023 09:39:08.650 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\University\3rd_year\1st_term\Distributed System Programming\Project Assignments\T3 - REST API Primes\T3\primes-api\conf\Catalina\localhost\primes-api.xml] has finished in [4,301] ms
+11-Dec-2023 09:39:08.655 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8082"]
+11-Dec-2023 09:39:08.693 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [4421] milliseconds
+11-Dec-2023 09:41:42.175 INFO [Thread-2] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8082"]
+11-Dec-2023 09:41:42.178 INFO [Thread-2] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+11-Dec-2023 09:41:42.189 WARNING [Thread-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [primes-api] appears to have started a thread named [Thread-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/java.lang.Thread.sleep0(Native Method)
+ java.base/java.lang.Thread.sleep(Thread.java:509)
+ org.example.prime.SharingUnit.lambda$startAutoRefresh$0(SharingUnit.java:44)
+ java.base/java.lang.Thread.run(Thread.java:1583)
+11-Dec-2023 09:41:42.199 INFO [Thread-2] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8082"]
+11-Dec-2023 09:41:42.212 INFO [Thread-2] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8082"]
+11-Dec-2023 09:41:44.589 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.83
+11-Dec-2023 09:41:44.594 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 9 2023 20:57:42 UTC
+11-Dec-2023 09:41:44.594 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.83.0
+11-Dec-2023 09:41:44.594 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+11-Dec-2023 09:41:44.594 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+11-Dec-2023 09:41:44.596 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+11-Dec-2023 09:41:44.596 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-21
+11-Dec-2023 09:41:44.596 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           21.0.1+12-LTS-29
+11-Dec-2023 09:41:44.597 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+11-Dec-2023 09:41:44.597 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\University\3rd_year\1st_term\Distributed System Programming\Project Assignments\T3 - REST API Primes\T3\primes-api
+11-Dec-2023 09:41:44.597 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\University\3rd_year\1st_term\Distributed System Programming\Project Assignments\T3 - REST API Primes\Apache Tomcat
+11-Dec-2023 09:41:44.608 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+11-Dec-2023 09:41:44.609 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+11-Dec-2023 09:41:44.609 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+11-Dec-2023 09:41:44.609 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+11-Dec-2023 09:41:44.609 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+11-Dec-2023 09:41:44.609 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:\University\3rd_year\1st_term\Distributed System Programming\Project Assignments\T3 - REST API Primes\Apache Tomcat
+11-Dec-2023 09:41:44.609 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:\University\3rd_year\1st_term\Distributed System Programming\Project Assignments\T3 - REST API Primes\T3\primes-api
+11-Dec-2023 09:41:44.609 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\University\3rd_year\1st_term\Distributed System Programming\Project Assignments\T3 - REST API Primes\T3\primes-api\temp
+11-Dec-2023 09:41:44.610 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:\University\3rd_year\1st_term\Distributed System Programming\Project Assignments\T3 - REST API Primes\T3\primes-api\conf\logging.properties
+11-Dec-2023 09:41:44.610 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+11-Dec-2023 09:41:44.610 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2023.2.5\lib\idea_rt.jar=59577:C:\Program Files\JetBrains\IntelliJ IDEA 2023.2.5\bin
+11-Dec-2023 09:41:44.610 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+11-Dec-2023 09:41:44.611 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stdout.encoding=UTF-8
+11-Dec-2023 09:41:44.611 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stderr.encoding=UTF-8
+11-Dec-2023 09:41:44.615 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.39] using APR version [1.7.4].
+11-Dec-2023 09:41:44.615 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+11-Dec-2023 09:41:44.615 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+11-Dec-2023 09:41:44.623 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.0.11 19 Sep 2023]
+11-Dec-2023 09:41:45.202 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8082"]
+11-Dec-2023 09:41:45.238 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [959] milliseconds
+11-Dec-2023 09:41:45.309 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+11-Dec-2023 09:41:45.309 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.83]
+11-Dec-2023 09:41:45.323 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [D:\University\3rd_year\1st_term\Distributed System Programming\Project Assignments\T3 - REST API Primes\T3\primes-api\conf\Catalina\localhost\primes-api.xml]
+11-Dec-2023 09:41:48.149 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+11-Dec-2023 09:41:49.080 INFO [main] org.glassfish.jersey.server.ApplicationHandler.initialize Initiating Jersey application, version Jersey: 2.6 2014-02-18 21:52:53...
+11-Dec-2023 09:41:49.632 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\University\3rd_year\1st_term\Distributed System Programming\Project Assignments\T3 - REST API Primes\T3\primes-api\conf\Catalina\localhost\primes-api.xml] has finished in [4,308] ms
+11-Dec-2023 09:41:49.635 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8082"]
+11-Dec-2023 09:41:49.660 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [4420] milliseconds
+11-Dec-2023 09:43:58.065 INFO [Thread-2] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8082"]
+11-Dec-2023 09:43:58.069 INFO [Thread-2] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+11-Dec-2023 09:43:58.080 WARNING [Thread-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [primes-api] appears to have started a thread named [Thread-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/java.lang.Thread.sleep0(Native Method)
+ java.base/java.lang.Thread.sleep(Thread.java:509)
+ org.example.prime.SharingUnit.lambda$startAutoRefresh$0(SharingUnit.java:44)
+ java.base/java.lang.Thread.run(Thread.java:1583)
+11-Dec-2023 09:43:58.090 INFO [Thread-2] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8082"]
+11-Dec-2023 09:43:58.111 INFO [Thread-2] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8082"]
+11-Dec-2023 09:44:35.518 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.83
+11-Dec-2023 09:44:35.526 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 9 2023 20:57:42 UTC
+11-Dec-2023 09:44:35.527 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.83.0
+11-Dec-2023 09:44:35.527 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+11-Dec-2023 09:44:35.527 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+11-Dec-2023 09:44:35.527 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+11-Dec-2023 09:44:35.527 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-21
+11-Dec-2023 09:44:35.527 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           21.0.1+12-LTS-29
+11-Dec-2023 09:44:35.527 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+11-Dec-2023 09:44:35.528 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\University\3rd_year\1st_term\Distributed System Programming\Project Assignments\T3 - REST API Primes\T3\primes-api
+11-Dec-2023 09:44:35.528 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\University\3rd_year\1st_term\Distributed System Programming\Project Assignments\T3 - REST API Primes\Apache Tomcat
+11-Dec-2023 09:44:35.541 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+11-Dec-2023 09:44:35.541 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+11-Dec-2023 09:44:35.542 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+11-Dec-2023 09:44:35.542 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+11-Dec-2023 09:44:35.542 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+11-Dec-2023 09:44:35.542 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:\University\3rd_year\1st_term\Distributed System Programming\Project Assignments\T3 - REST API Primes\Apache Tomcat
+11-Dec-2023 09:44:35.543 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:\University\3rd_year\1st_term\Distributed System Programming\Project Assignments\T3 - REST API Primes\T3\primes-api
+11-Dec-2023 09:44:35.543 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\University\3rd_year\1st_term\Distributed System Programming\Project Assignments\T3 - REST API Primes\T3\primes-api\temp
+11-Dec-2023 09:44:35.543 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:\University\3rd_year\1st_term\Distributed System Programming\Project Assignments\T3 - REST API Primes\T3\primes-api\conf\logging.properties
+11-Dec-2023 09:44:35.543 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+11-Dec-2023 09:44:35.543 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2023.2.5\lib\idea_rt.jar=59636:C:\Program Files\JetBrains\IntelliJ IDEA 2023.2.5\bin
+11-Dec-2023 09:44:35.543 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+11-Dec-2023 09:44:35.543 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stdout.encoding=UTF-8
+11-Dec-2023 09:44:35.543 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stderr.encoding=UTF-8
+11-Dec-2023 09:44:35.548 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.39] using APR version [1.7.4].
+11-Dec-2023 09:44:35.548 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+11-Dec-2023 09:44:35.548 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+11-Dec-2023 09:44:35.558 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.0.11 19 Sep 2023]
+11-Dec-2023 09:44:36.163 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8082"]
+11-Dec-2023 09:44:36.193 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1027] milliseconds
+11-Dec-2023 09:44:36.255 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+11-Dec-2023 09:44:36.256 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.83]
+11-Dec-2023 09:44:36.270 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [D:\University\3rd_year\1st_term\Distributed System Programming\Project Assignments\T3 - REST API Primes\T3\primes-api\conf\Catalina\localhost\primes-api.xml]
+11-Dec-2023 09:44:39.071 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+11-Dec-2023 09:44:39.827 INFO [main] org.glassfish.jersey.server.ApplicationHandler.initialize Initiating Jersey application, version Jersey: 2.6 2014-02-18 21:52:53...
+11-Dec-2023 09:44:40.307 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\University\3rd_year\1st_term\Distributed System Programming\Project Assignments\T3 - REST API Primes\T3\primes-api\conf\Catalina\localhost\primes-api.xml] has finished in [4,036] ms
+11-Dec-2023 09:44:40.310 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8082"]
+11-Dec-2023 09:44:40.340 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [4146] milliseconds
+11-Dec-2023 09:46:31.861 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.83
+11-Dec-2023 09:46:31.867 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 9 2023 20:57:42 UTC
+11-Dec-2023 09:46:31.867 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.83.0
+11-Dec-2023 09:46:31.867 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+11-Dec-2023 09:46:31.867 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+11-Dec-2023 09:46:31.867 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+11-Dec-2023 09:46:31.867 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-21
+11-Dec-2023 09:46:31.868 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           21.0.1+12-LTS-29
+11-Dec-2023 09:46:31.868 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+11-Dec-2023 09:46:31.868 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\University\3rd_year\1st_term\Distributed System Programming\Project Assignments\T3 - REST API Primes\T3\primes-api
+11-Dec-2023 09:46:31.868 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\University\3rd_year\1st_term\Distributed System Programming\Project Assignments\T3 - REST API Primes\Apache Tomcat
+11-Dec-2023 09:46:31.879 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+11-Dec-2023 09:46:31.880 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+11-Dec-2023 09:46:31.880 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+11-Dec-2023 09:46:31.880 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+11-Dec-2023 09:46:31.880 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+11-Dec-2023 09:46:31.881 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:\University\3rd_year\1st_term\Distributed System Programming\Project Assignments\T3 - REST API Primes\Apache Tomcat
+11-Dec-2023 09:46:31.881 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:\University\3rd_year\1st_term\Distributed System Programming\Project Assignments\T3 - REST API Primes\T3\primes-api
+11-Dec-2023 09:46:31.881 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\University\3rd_year\1st_term\Distributed System Programming\Project Assignments\T3 - REST API Primes\T3\primes-api\temp
+11-Dec-2023 09:46:31.881 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:\University\3rd_year\1st_term\Distributed System Programming\Project Assignments\T3 - REST API Primes\T3\primes-api\conf\logging.properties
+11-Dec-2023 09:46:31.881 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+11-Dec-2023 09:46:31.881 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2023.2.5\lib\idea_rt.jar=59660:C:\Program Files\JetBrains\IntelliJ IDEA 2023.2.5\bin
+11-Dec-2023 09:46:31.882 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+11-Dec-2023 09:46:31.882 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stdout.encoding=UTF-8
+11-Dec-2023 09:46:31.882 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stderr.encoding=UTF-8
+11-Dec-2023 09:46:31.886 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.39] using APR version [1.7.4].
+11-Dec-2023 09:46:31.887 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+11-Dec-2023 09:46:31.887 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+11-Dec-2023 09:46:31.894 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.0.11 19 Sep 2023]
+11-Dec-2023 09:46:32.463 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8082"]
+11-Dec-2023 09:46:32.478 SEVERE [main] org.apache.catalina.util.LifecycleBase.handleSubClassException Failed to initialize component [Connector["http-nio-8082"]]
+	org.apache.catalina.LifecycleException: Protocol handler initialization failed
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1011)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:127)
+		at org.apache.catalina.core.StandardService.initInternal(StandardService.java:554)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:127)
+		at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:1039)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:127)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:724)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:746)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+		at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:307)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:477)
+	Caused by: java.net.BindException: Address already in use: bind
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:565)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.netBind(ServerSocketChannelImpl.java:344)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:301)
+		at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:276)
+		at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:231)
+		at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1332)
+		at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1345)
+		at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:654)
+		at org.apache.coyote.http11.AbstractHttp11Protocol.init(AbstractHttp11Protocol.java:75)
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1009)
+		... 11 more
+11-Dec-2023 09:46:32.479 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [952] milliseconds
+11-Dec-2023 09:46:32.556 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+11-Dec-2023 09:46:32.556 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.83]
+11-Dec-2023 09:46:32.573 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [D:\University\3rd_year\1st_term\Distributed System Programming\Project Assignments\T3 - REST API Primes\T3\primes-api\conf\Catalina\localhost\ROOT.xml]
+11-Dec-2023 09:46:35.673 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+11-Dec-2023 09:46:36.594 INFO [main] org.glassfish.jersey.server.ApplicationHandler.initialize Initiating Jersey application, version Jersey: 2.6 2014-02-18 21:52:53...
+11-Dec-2023 09:46:37.159 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\University\3rd_year\1st_term\Distributed System Programming\Project Assignments\T3 - REST API Primes\T3\primes-api\conf\Catalina\localhost\ROOT.xml] has finished in [4,585] ms
+11-Dec-2023 09:46:37.164 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [4682] milliseconds
+11-Dec-2023 09:46:37.164 SEVERE [main] org.apache.catalina.core.StandardServer.await Failed to create server shutdown socket on address [localhost] and port [8006] (base port [8006] and offset [0])
+	java.net.BindException: Address already in use: bind
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:565)
+		at java.base/sun.nio.ch.Net.bind(Net.java:554)
+		at java.base/sun.nio.ch.NioSocketImpl.bind(NioSocketImpl.java:636)
+		at java.base/java.net.ServerSocket.bind(ServerSocket.java:391)
+		at java.base/java.net.ServerSocket.<init>(ServerSocket.java:278)
+		at org.apache.catalina.core.StandardServer.await(StandardServer.java:581)
+		at org.apache.catalina.startup.Catalina.await(Catalina.java:864)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:810)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:347)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:478)
+11-Dec-2023 09:46:37.165 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8082"]
+11-Dec-2023 09:46:37.165 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+11-Dec-2023 09:46:37.172 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [Thread-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/java.lang.Thread.sleep0(Native Method)
+ java.base/java.lang.Thread.sleep(Thread.java:509)
+ org.example.prime.SharingUnit.lambda$startAutoRefresh$0(SharingUnit.java:44)
+ java.base/java.lang.Thread.run(Thread.java:1583)
+11-Dec-2023 09:46:37.178 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8082"]
+11-Dec-2023 09:46:37.179 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8082"]
+11-Dec-2023 09:46:40.953 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/primes-api]
+11-Dec-2023 09:46:40.978 WARNING [Catalina-utility-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [primes-api] appears to have started a thread named [Thread-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/java.lang.Thread.sleep0(Native Method)
+ java.base/java.lang.Thread.sleep(Thread.java:509)
+ org.example.prime.SharingUnit.lambda$startAutoRefresh$0(SharingUnit.java:44)
+ java.base/java.lang.Thread.run(Thread.java:1583)
+11-Dec-2023 09:46:40.997 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [D:\University\3rd_year\1st_term\Distributed System Programming\Project Assignments\T3 - REST API Primes\T3\primes-api\conf\Catalina\localhost\ROOT.xml]
+11-Dec-2023 09:46:43.177 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+11-Dec-2023 09:46:43.899 INFO [Catalina-utility-2] org.glassfish.jersey.server.ApplicationHandler.initialize Initiating Jersey application, version Jersey: 2.6 2014-02-18 21:52:53...
+11-Dec-2023 09:46:44.313 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\University\3rd_year\1st_term\Distributed System Programming\Project Assignments\T3 - REST API Primes\T3\primes-api\conf\Catalina\localhost\ROOT.xml] has finished in [3,316] ms
+11-Dec-2023 09:48:19.928 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.83
+11-Dec-2023 09:48:19.933 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 9 2023 20:57:42 UTC
+11-Dec-2023 09:48:19.933 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.83.0
+11-Dec-2023 09:48:19.934 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+11-Dec-2023 09:48:19.934 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+11-Dec-2023 09:48:19.934 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+11-Dec-2023 09:48:19.934 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-21
+11-Dec-2023 09:48:19.934 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           21.0.1+12-LTS-29
+11-Dec-2023 09:48:19.934 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+11-Dec-2023 09:48:19.934 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\University\3rd_year\1st_term\Distributed System Programming\Project Assignments\T3 - REST API Primes\T3\primes-api
+11-Dec-2023 09:48:19.934 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\University\3rd_year\1st_term\Distributed System Programming\Project Assignments\T3 - REST API Primes\Apache Tomcat
+11-Dec-2023 09:48:19.945 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+11-Dec-2023 09:48:19.945 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+11-Dec-2023 09:48:19.945 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+11-Dec-2023 09:48:19.945 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+11-Dec-2023 09:48:19.946 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+11-Dec-2023 09:48:19.946 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:\University\3rd_year\1st_term\Distributed System Programming\Project Assignments\T3 - REST API Primes\Apache Tomcat
+11-Dec-2023 09:48:19.946 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:\University\3rd_year\1st_term\Distributed System Programming\Project Assignments\T3 - REST API Primes\T3\primes-api
+11-Dec-2023 09:48:19.946 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\University\3rd_year\1st_term\Distributed System Programming\Project Assignments\T3 - REST API Primes\T3\primes-api\temp
+11-Dec-2023 09:48:19.946 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:\University\3rd_year\1st_term\Distributed System Programming\Project Assignments\T3 - REST API Primes\T3\primes-api\conf\logging.properties
+11-Dec-2023 09:48:19.946 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+11-Dec-2023 09:48:19.946 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2023.2.5\lib\idea_rt.jar=59686:C:\Program Files\JetBrains\IntelliJ IDEA 2023.2.5\bin
+11-Dec-2023 09:48:19.946 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+11-Dec-2023 09:48:19.946 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stdout.encoding=UTF-8
+11-Dec-2023 09:48:19.946 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stderr.encoding=UTF-8
+11-Dec-2023 09:48:19.950 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.39] using APR version [1.7.4].
+11-Dec-2023 09:48:19.950 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+11-Dec-2023 09:48:19.950 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+11-Dec-2023 09:48:19.959 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.0.11 19 Sep 2023]
+11-Dec-2023 09:48:20.554 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8082"]
+11-Dec-2023 09:48:20.567 SEVERE [main] org.apache.catalina.util.LifecycleBase.handleSubClassException Failed to initialize component [Connector["http-nio-8082"]]
+	org.apache.catalina.LifecycleException: Protocol handler initialization failed
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1011)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:127)
+		at org.apache.catalina.core.StandardService.initInternal(StandardService.java:554)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:127)
+		at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:1039)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:127)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:724)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:746)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+		at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:307)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:477)
+	Caused by: java.net.BindException: Address already in use: bind
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:565)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.netBind(ServerSocketChannelImpl.java:344)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:301)
+		at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:276)
+		at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:231)
+		at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1332)
+		at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1345)
+		at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:654)
+		at org.apache.coyote.http11.AbstractHttp11Protocol.init(AbstractHttp11Protocol.java:75)
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1009)
+		... 11 more
+11-Dec-2023 09:48:20.568 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1022] milliseconds
+11-Dec-2023 09:48:20.639 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+11-Dec-2023 09:48:20.639 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.83]
+11-Dec-2023 09:48:20.652 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [D:\University\3rd_year\1st_term\Distributed System Programming\Project Assignments\T3 - REST API Primes\T3\primes-api\conf\Catalina\localhost\primes-api.xml]
+11-Dec-2023 09:48:23.952 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+11-Dec-2023 09:48:24.910 INFO [main] org.glassfish.jersey.server.ApplicationHandler.initialize Initiating Jersey application, version Jersey: 2.6 2014-02-18 21:52:53...
+11-Dec-2023 09:48:24.941 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.undeploy Undeploying context []
+11-Dec-2023 09:48:24.945 WARNING [Catalina-utility-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [Thread-3] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/java.lang.Thread.sleep0(Native Method)
+ java.base/java.lang.Thread.sleep(Thread.java:509)
+ org.example.prime.SharingUnit.lambda$startAutoRefresh$0(SharingUnit.java:44)
+ java.base/java.lang.Thread.run(Thread.java:1583)
+11-Dec-2023 09:48:24.958 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [D:\University\3rd_year\1st_term\Distributed System Programming\Project Assignments\T3 - REST API Primes\T3\primes-api\conf\Catalina\localhost\primes-api.xml]
+11-Dec-2023 09:48:25.554 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\University\3rd_year\1st_term\Distributed System Programming\Project Assignments\T3 - REST API Primes\T3\primes-api\conf\Catalina\localhost\primes-api.xml] has finished in [4,900] ms
+11-Dec-2023 09:48:25.559 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [4988] milliseconds
+11-Dec-2023 09:48:25.560 SEVERE [main] org.apache.catalina.core.StandardServer.await Failed to create server shutdown socket on address [localhost] and port [8006] (base port [8006] and offset [0])
+	java.net.BindException: Address already in use: bind
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:565)
+		at java.base/sun.nio.ch.Net.bind(Net.java:554)
+		at java.base/sun.nio.ch.NioSocketImpl.bind(NioSocketImpl.java:636)
+		at java.base/java.net.ServerSocket.bind(ServerSocket.java:391)
+		at java.base/java.net.ServerSocket.<init>(ServerSocket.java:278)
+		at org.apache.catalina.core.StandardServer.await(StandardServer.java:581)
+		at org.apache.catalina.startup.Catalina.await(Catalina.java:864)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:810)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:347)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:478)
+11-Dec-2023 09:48:25.560 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8082"]
+11-Dec-2023 09:48:25.560 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+11-Dec-2023 09:48:25.566 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [primes-api] appears to have started a thread named [Thread-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/java.lang.Thread.sleep0(Native Method)
+ java.base/java.lang.Thread.sleep(Thread.java:509)
+ org.example.prime.SharingUnit.lambda$startAutoRefresh$0(SharingUnit.java:44)
+ java.base/java.lang.Thread.run(Thread.java:1583)
+11-Dec-2023 09:48:25.571 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8082"]
+11-Dec-2023 09:48:25.571 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8082"]
+11-Dec-2023 09:48:27.295 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+11-Dec-2023 09:48:28.116 INFO [Catalina-utility-2] org.glassfish.jersey.server.ApplicationHandler.initialize Initiating Jersey application, version Jersey: 2.6 2014-02-18 21:52:53...
+11-Dec-2023 09:48:28.573 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\University\3rd_year\1st_term\Distributed System Programming\Project Assignments\T3 - REST API Primes\T3\primes-api\conf\Catalina\localhost\primes-api.xml] has finished in [3,614] ms
+11-Dec-2023 11:36:03.977 INFO [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load [org.glassfish.jersey.internal.util.collection.KeyComparatorHashMap$1]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load [org.glassfish.jersey.internal.util.collection.KeyComparatorHashMap$1]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1349)
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForClassLoading(WebappClassLoaderBase.java:1337)
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1174)
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1141)
+		at org.glassfish.jersey.internal.util.collection.KeyComparatorHashMap$EntrySet.<init>(KeyComparatorHashMap.java:925)
+		at org.glassfish.jersey.internal.util.collection.KeyComparatorHashMap.entrySet(KeyComparatorHashMap.java:922)
+		at javax.ws.rs.core.AbstractMultivaluedMap.entrySet(AbstractMultivaluedMap.java:357)
+		at jersey.repackaged.com.google.common.collect.Maps$TransformedEntriesMap$1.iterator(Maps.java:1838)
+		at org.glassfish.jersey.client.HttpUrlConnector.setOutboundHeaders(HttpUrlConnector.java:341)
+		at org.glassfish.jersey.client.HttpUrlConnector._apply(HttpUrlConnector.java:318)
+		at org.glassfish.jersey.client.HttpUrlConnector.apply(HttpUrlConnector.java:227)
+		at org.glassfish.jersey.client.ClientRuntime.invoke(ClientRuntime.java:225)
+		at org.glassfish.jersey.client.JerseyInvocation$2.call(JerseyInvocation.java:671)
+		at org.glassfish.jersey.internal.Errors.process(Errors.java:315)
+		at org.glassfish.jersey.internal.Errors.process(Errors.java:297)
+		at org.glassfish.jersey.internal.Errors.process(Errors.java:228)
+		at org.glassfish.jersey.process.internal.RequestScope.runInScope(RequestScope.java:423)
+		at org.glassfish.jersey.client.JerseyInvocation.invoke(JerseyInvocation.java:667)
+		at org.glassfish.jersey.client.JerseyInvocation$Builder.method(JerseyInvocation.java:396)
+		at org.glassfish.jersey.client.JerseyInvocation$Builder.get(JerseyInvocation.java:296)
+		at org.example.prime.SharingUnit.getListFromPort(SharingUnit.java:74)
+		at org.example.prime.SharingUnit.refresh(SharingUnit.java:59)
+		at org.example.prime.SharingUnit.lambda$startAutoRefresh$0(SharingUnit.java:42)
+		at java.base/java.lang.Thread.run(Thread.java:1583)
+11-Dec-2023 11:41:34.895 INFO [Thread-3] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load [org.glassfish.jersey.internal.util.collection.KeyComparatorHashMap$1]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load [org.glassfish.jersey.internal.util.collection.KeyComparatorHashMap$1]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1349)
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForClassLoading(WebappClassLoaderBase.java:1337)
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1174)
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1141)
+		at org.glassfish.jersey.internal.util.collection.KeyComparatorHashMap$EntrySet.<init>(KeyComparatorHashMap.java:925)
+		at org.glassfish.jersey.internal.util.collection.KeyComparatorHashMap.entrySet(KeyComparatorHashMap.java:922)
+		at javax.ws.rs.core.AbstractMultivaluedMap.entrySet(AbstractMultivaluedMap.java:357)
+		at jersey.repackaged.com.google.common.collect.Maps$TransformedEntriesMap$1.iterator(Maps.java:1838)
+		at org.glassfish.jersey.client.HttpUrlConnector.setOutboundHeaders(HttpUrlConnector.java:341)
+		at org.glassfish.jersey.client.HttpUrlConnector._apply(HttpUrlConnector.java:318)
+		at org.glassfish.jersey.client.HttpUrlConnector.apply(HttpUrlConnector.java:227)
+		at org.glassfish.jersey.client.ClientRuntime.invoke(ClientRuntime.java:225)
+		at org.glassfish.jersey.client.JerseyInvocation$2.call(JerseyInvocation.java:671)
+		at org.glassfish.jersey.internal.Errors.process(Errors.java:315)
+		at org.glassfish.jersey.internal.Errors.process(Errors.java:297)
+		at org.glassfish.jersey.internal.Errors.process(Errors.java:228)
+		at org.glassfish.jersey.process.internal.RequestScope.runInScope(RequestScope.java:423)
+		at org.glassfish.jersey.client.JerseyInvocation.invoke(JerseyInvocation.java:667)
+		at org.glassfish.jersey.client.JerseyInvocation$Builder.method(JerseyInvocation.java:396)
+		at org.glassfish.jersey.client.JerseyInvocation$Builder.get(JerseyInvocation.java:296)
+		at org.example.prime.SharingUnit.getListFromPort(SharingUnit.java:74)
+		at org.example.prime.SharingUnit.refresh(SharingUnit.java:59)
+		at org.example.prime.SharingUnit.lambda$startAutoRefresh$0(SharingUnit.java:42)
+		at java.base/java.lang.Thread.run(Thread.java:1583)
+11-Dec-2023 11:45:55.428 INFO [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load [org.glassfish.jersey.internal.util.collection.KeyComparatorHashMap$1]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load [org.glassfish.jersey.internal.util.collection.KeyComparatorHashMap$1]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1349)
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForClassLoading(WebappClassLoaderBase.java:1337)
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1174)
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1141)
+		at org.glassfish.jersey.internal.util.collection.KeyComparatorHashMap$EntrySet.<init>(KeyComparatorHashMap.java:925)
+		at org.glassfish.jersey.internal.util.collection.KeyComparatorHashMap.entrySet(KeyComparatorHashMap.java:922)
+		at javax.ws.rs.core.AbstractMultivaluedMap.entrySet(AbstractMultivaluedMap.java:357)
+		at jersey.repackaged.com.google.common.collect.Maps$TransformedEntriesMap$1.iterator(Maps.java:1838)
+		at org.glassfish.jersey.client.HttpUrlConnector.setOutboundHeaders(HttpUrlConnector.java:341)
+		at org.glassfish.jersey.client.HttpUrlConnector._apply(HttpUrlConnector.java:318)
+		at org.glassfish.jersey.client.HttpUrlConnector.apply(HttpUrlConnector.java:227)
+		at org.glassfish.jersey.client.ClientRuntime.invoke(ClientRuntime.java:225)
+		at org.glassfish.jersey.client.JerseyInvocation$2.call(JerseyInvocation.java:671)
+		at org.glassfish.jersey.internal.Errors.process(Errors.java:315)
+		at org.glassfish.jersey.internal.Errors.process(Errors.java:297)
+		at org.glassfish.jersey.internal.Errors.process(Errors.java:228)
+		at org.glassfish.jersey.process.internal.RequestScope.runInScope(RequestScope.java:423)
+		at org.glassfish.jersey.client.JerseyInvocation.invoke(JerseyInvocation.java:667)
+		at org.glassfish.jersey.client.JerseyInvocation$Builder.method(JerseyInvocation.java:396)
+		at org.glassfish.jersey.client.JerseyInvocation$Builder.get(JerseyInvocation.java:296)
+		at org.example.prime.SharingUnit.getListFromPort(SharingUnit.java:74)
+		at org.example.prime.SharingUnit.refresh(SharingUnit.java:59)
+		at org.example.prime.SharingUnit.lambda$startAutoRefresh$0(SharingUnit.java:42)
+		at java.base/java.lang.Thread.run(Thread.java:1583)
+11-Dec-2023 12:00:07.042 INFO [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load [org.glassfish.jersey.internal.util.collection.KeyComparatorLinkedHashMap$1]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load [org.glassfish.jersey.internal.util.collection.KeyComparatorLinkedHashMap$1]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1349)
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForClassLoading(WebappClassLoaderBase.java:1337)
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1174)
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1141)
+		at org.glassfish.jersey.internal.util.collection.KeyComparatorLinkedHashMap$EntryIterator.<init>(KeyComparatorLinkedHashMap.java:359)
+		at org.glassfish.jersey.internal.util.collection.KeyComparatorLinkedHashMap.newEntryIterator(KeyComparatorLinkedHashMap.java:380)
+		at org.glassfish.jersey.internal.util.collection.KeyComparatorHashMap$EntrySet.iterator(KeyComparatorHashMap.java:929)
+		at jersey.repackaged.com.google.common.collect.Maps$TransformedEntriesMap$1.iterator(Maps.java:1838)
+		at org.glassfish.jersey.client.HttpUrlConnector.setOutboundHeaders(HttpUrlConnector.java:341)
+		at org.glassfish.jersey.client.HttpUrlConnector._apply(HttpUrlConnector.java:318)
+		at org.glassfish.jersey.client.HttpUrlConnector.apply(HttpUrlConnector.java:227)
+		at org.glassfish.jersey.client.ClientRuntime.invoke(ClientRuntime.java:225)
+		at org.glassfish.jersey.client.JerseyInvocation$2.call(JerseyInvocation.java:671)
+		at org.glassfish.jersey.internal.Errors.process(Errors.java:315)
+		at org.glassfish.jersey.internal.Errors.process(Errors.java:297)
+		at org.glassfish.jersey.internal.Errors.process(Errors.java:228)
+		at org.glassfish.jersey.process.internal.RequestScope.runInScope(RequestScope.java:423)
+		at org.glassfish.jersey.client.JerseyInvocation.invoke(JerseyInvocation.java:667)
+		at org.glassfish.jersey.client.JerseyInvocation$Builder.method(JerseyInvocation.java:396)
+		at org.glassfish.jersey.client.JerseyInvocation$Builder.get(JerseyInvocation.java:296)
+		at org.example.prime.SharingUnit.getListFromPort(SharingUnit.java:74)
+		at org.example.prime.SharingUnit.refresh(SharingUnit.java:59)
+		at org.example.prime.SharingUnit.lambda$startAutoRefresh$0(SharingUnit.java:42)
+		at java.base/java.lang.Thread.run(Thread.java:1583)
+11-Dec-2023 13:49:13.545 INFO [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load [org.glassfish.jersey.internal.util.collection.KeyComparatorLinkedHashMap$1]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load [org.glassfish.jersey.internal.util.collection.KeyComparatorLinkedHashMap$1]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1349)
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForClassLoading(WebappClassLoaderBase.java:1337)
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1174)
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1141)
+		at org.glassfish.jersey.internal.util.collection.KeyComparatorLinkedHashMap$EntryIterator.<init>(KeyComparatorLinkedHashMap.java:359)
+		at org.glassfish.jersey.internal.util.collection.KeyComparatorLinkedHashMap.newEntryIterator(KeyComparatorLinkedHashMap.java:380)
+		at org.glassfish.jersey.internal.util.collection.KeyComparatorHashMap$EntrySet.iterator(KeyComparatorHashMap.java:929)
+		at jersey.repackaged.com.google.common.collect.Maps$TransformedEntriesMap$1.iterator(Maps.java:1838)
+		at org.glassfish.jersey.client.HttpUrlConnector.setOutboundHeaders(HttpUrlConnector.java:341)
+		at org.glassfish.jersey.client.HttpUrlConnector._apply(HttpUrlConnector.java:318)
+		at org.glassfish.jersey.client.HttpUrlConnector.apply(HttpUrlConnector.java:227)
+		at org.glassfish.jersey.client.ClientRuntime.invoke(ClientRuntime.java:225)
+		at org.glassfish.jersey.client.JerseyInvocation$2.call(JerseyInvocation.java:671)
+		at org.glassfish.jersey.internal.Errors.process(Errors.java:315)
+		at org.glassfish.jersey.internal.Errors.process(Errors.java:297)
+		at org.glassfish.jersey.internal.Errors.process(Errors.java:228)
+		at org.glassfish.jersey.process.internal.RequestScope.runInScope(RequestScope.java:423)
+		at org.glassfish.jersey.client.JerseyInvocation.invoke(JerseyInvocation.java:667)
+		at org.glassfish.jersey.client.JerseyInvocation$Builder.method(JerseyInvocation.java:396)
+		at org.glassfish.jersey.client.JerseyInvocation$Builder.get(JerseyInvocation.java:296)
+		at org.example.prime.SharingUnit.getListFromPort(SharingUnit.java:74)
+		at org.example.prime.SharingUnit.refresh(SharingUnit.java:59)
+		at org.example.prime.SharingUnit.lambda$startAutoRefresh$0(SharingUnit.java:42)
+		at java.base/java.lang.Thread.run(Thread.java:1583)
+11-Dec-2023 14:24:12.100 INFO [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load [org.glassfish.jersey.internal.util.collection.KeyComparatorLinkedHashMap$1]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load [org.glassfish.jersey.internal.util.collection.KeyComparatorLinkedHashMap$1]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1349)
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForClassLoading(WebappClassLoaderBase.java:1337)
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1174)
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1141)
+		at org.glassfish.jersey.internal.util.collection.KeyComparatorLinkedHashMap$LinkedHashIterator.<init>(KeyComparatorLinkedHashMap.java:299)
+		at org.glassfish.jersey.internal.util.collection.KeyComparatorLinkedHashMap$EntryIterator.<init>(KeyComparatorLinkedHashMap.java:359)
+		at org.glassfish.jersey.internal.util.collection.KeyComparatorLinkedHashMap$EntryIterator.<init>(KeyComparatorLinkedHashMap.java:359)
+		at org.glassfish.jersey.internal.util.collection.KeyComparatorLinkedHashMap.newEntryIterator(KeyComparatorLinkedHashMap.java:380)
+		at org.glassfish.jersey.internal.util.collection.KeyComparatorHashMap$EntrySet.iterator(KeyComparatorHashMap.java:929)
+		at jersey.repackaged.com.google.common.collect.Maps$TransformedEntriesMap$1.iterator(Maps.java:1838)
+		at org.glassfish.jersey.client.HttpUrlConnector.setOutboundHeaders(HttpUrlConnector.java:341)
+		at org.glassfish.jersey.client.HttpUrlConnector._apply(HttpUrlConnector.java:318)
+		at org.glassfish.jersey.client.HttpUrlConnector.apply(HttpUrlConnector.java:227)
+		at org.glassfish.jersey.client.ClientRuntime.invoke(ClientRuntime.java:225)
+		at org.glassfish.jersey.client.JerseyInvocation$2.call(JerseyInvocation.java:671)
+		at org.glassfish.jersey.internal.Errors.process(Errors.java:315)
+		at org.glassfish.jersey.internal.Errors.process(Errors.java:297)
+		at org.glassfish.jersey.internal.Errors.process(Errors.java:228)
+		at org.glassfish.jersey.process.internal.RequestScope.runInScope(RequestScope.java:423)
+		at org.glassfish.jersey.client.JerseyInvocation.invoke(JerseyInvocation.java:667)
+		at org.glassfish.jersey.client.JerseyInvocation$Builder.method(JerseyInvocation.java:396)
+		at org.glassfish.jersey.client.JerseyInvocation$Builder.get(JerseyInvocation.java:296)
+		at org.example.prime.SharingUnit.getListFromPort(SharingUnit.java:74)
+		at org.example.prime.SharingUnit.refresh(SharingUnit.java:59)
+		at org.example.prime.SharingUnit.lambda$startAutoRefresh$0(SharingUnit.java:42)
+		at java.base/java.lang.Thread.run(Thread.java:1583)
+11-Dec-2023 14:29:42.984 INFO [Thread-3] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load [org.glassfish.jersey.internal.util.collection.KeyComparatorLinkedHashMap$1]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load [org.glassfish.jersey.internal.util.collection.KeyComparatorLinkedHashMap$1]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1349)
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForClassLoading(WebappClassLoaderBase.java:1337)
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1174)
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1141)
+		at org.glassfish.jersey.internal.util.collection.KeyComparatorLinkedHashMap$EntryIterator.<init>(KeyComparatorLinkedHashMap.java:359)
+		at org.glassfish.jersey.internal.util.collection.KeyComparatorLinkedHashMap.newEntryIterator(KeyComparatorLinkedHashMap.java:380)
+		at org.glassfish.jersey.internal.util.collection.KeyComparatorHashMap$EntrySet.iterator(KeyComparatorHashMap.java:929)
+		at jersey.repackaged.com.google.common.collect.Maps$TransformedEntriesMap$1.iterator(Maps.java:1838)
+		at org.glassfish.jersey.client.HttpUrlConnector.setOutboundHeaders(HttpUrlConnector.java:341)
+		at org.glassfish.jersey.client.HttpUrlConnector._apply(HttpUrlConnector.java:318)
+		at org.glassfish.jersey.client.HttpUrlConnector.apply(HttpUrlConnector.java:227)
+		at org.glassfish.jersey.client.ClientRuntime.invoke(ClientRuntime.java:225)
+		at org.glassfish.jersey.client.JerseyInvocation$2.call(JerseyInvocation.java:671)
+		at org.glassfish.jersey.internal.Errors.process(Errors.java:315)
+		at org.glassfish.jersey.internal.Errors.process(Errors.java:297)
+		at org.glassfish.jersey.internal.Errors.process(Errors.java:228)
+		at org.glassfish.jersey.process.internal.RequestScope.runInScope(RequestScope.java:423)
+		at org.glassfish.jersey.client.JerseyInvocation.invoke(JerseyInvocation.java:667)
+		at org.glassfish.jersey.client.JerseyInvocation$Builder.method(JerseyInvocation.java:396)
+		at org.glassfish.jersey.client.JerseyInvocation$Builder.get(JerseyInvocation.java:296)
+		at org.example.prime.SharingUnit.getListFromPort(SharingUnit.java:74)
+		at org.example.prime.SharingUnit.refresh(SharingUnit.java:59)
+		at org.example.prime.SharingUnit.lambda$startAutoRefresh$0(SharingUnit.java:42)
+		at java.base/java.lang.Thread.run(Thread.java:1583)
+11-Dec-2023 14:31:23.192 INFO [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load [org.glassfish.jersey.internal.util.collection.KeyComparatorLinkedHashMap$1]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load [org.glassfish.jersey.internal.util.collection.KeyComparatorLinkedHashMap$1]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1349)
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForClassLoading(WebappClassLoaderBase.java:1337)
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1174)
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1141)
+		at org.glassfish.jersey.internal.util.collection.KeyComparatorLinkedHashMap$LinkedHashIterator.<init>(KeyComparatorLinkedHashMap.java:299)
+		at org.glassfish.jersey.internal.util.collection.KeyComparatorLinkedHashMap$EntryIterator.<init>(KeyComparatorLinkedHashMap.java:359)
+		at org.glassfish.jersey.internal.util.collection.KeyComparatorLinkedHashMap$EntryIterator.<init>(KeyComparatorLinkedHashMap.java:359)
+		at org.glassfish.jersey.internal.util.collection.KeyComparatorLinkedHashMap.newEntryIterator(KeyComparatorLinkedHashMap.java:380)
+		at org.glassfish.jersey.internal.util.collection.KeyComparatorHashMap$EntrySet.iterator(KeyComparatorHashMap.java:929)
+		at jersey.repackaged.com.google.common.collect.Maps$TransformedEntriesMap$1.iterator(Maps.java:1838)
+		at org.glassfish.jersey.client.HttpUrlConnector.setOutboundHeaders(HttpUrlConnector.java:341)
+		at org.glassfish.jersey.client.HttpUrlConnector._apply(HttpUrlConnector.java:318)
+		at org.glassfish.jersey.client.HttpUrlConnector.apply(HttpUrlConnector.java:227)
+		at org.glassfish.jersey.client.ClientRuntime.invoke(ClientRuntime.java:225)
+		at org.glassfish.jersey.client.JerseyInvocation$2.call(JerseyInvocation.java:671)
+		at org.glassfish.jersey.internal.Errors.process(Errors.java:315)
+		at org.glassfish.jersey.internal.Errors.process(Errors.java:297)
+		at org.glassfish.jersey.internal.Errors.process(Errors.java:228)
+		at org.glassfish.jersey.process.internal.RequestScope.runInScope(RequestScope.java:423)
+		at org.glassfish.jersey.client.JerseyInvocation.invoke(JerseyInvocation.java:667)
+		at org.glassfish.jersey.client.JerseyInvocation$Builder.method(JerseyInvocation.java:396)
+		at org.glassfish.jersey.client.JerseyInvocation$Builder.get(JerseyInvocation.java:296)
+		at org.example.prime.SharingUnit.getListFromPort(SharingUnit.java:74)
+		at org.example.prime.SharingUnit.refresh(SharingUnit.java:59)
+		at org.example.prime.SharingUnit.lambda$startAutoRefresh$0(SharingUnit.java:42)
+		at java.base/java.lang.Thread.run(Thread.java:1583)
+11-Dec-2023 17:50:39.833 INFO [Thread-3] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load [org.glassfish.jersey.internal.util.collection.KeyComparatorLinkedHashMap$1]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load [org.glassfish.jersey.internal.util.collection.KeyComparatorLinkedHashMap$1]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1349)
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForClassLoading(WebappClassLoaderBase.java:1337)
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1174)
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1141)
+		at org.glassfish.jersey.internal.util.collection.KeyComparatorLinkedHashMap$LinkedHashIterator.<init>(KeyComparatorLinkedHashMap.java:299)
+		at org.glassfish.jersey.internal.util.collection.KeyComparatorLinkedHashMap$EntryIterator.<init>(KeyComparatorLinkedHashMap.java:359)
+		at org.glassfish.jersey.internal.util.collection.KeyComparatorLinkedHashMap$EntryIterator.<init>(KeyComparatorLinkedHashMap.java:359)
+		at org.glassfish.jersey.internal.util.collection.KeyComparatorLinkedHashMap.newEntryIterator(KeyComparatorLinkedHashMap.java:380)
+		at org.glassfish.jersey.internal.util.collection.KeyComparatorHashMap$EntrySet.iterator(KeyComparatorHashMap.java:929)
+		at jersey.repackaged.com.google.common.collect.Maps$TransformedEntriesMap$1.iterator(Maps.java:1838)
+		at org.glassfish.jersey.client.HttpUrlConnector.setOutboundHeaders(HttpUrlConnector.java:341)
+		at org.glassfish.jersey.client.HttpUrlConnector._apply(HttpUrlConnector.java:318)
+		at org.glassfish.jersey.client.HttpUrlConnector.apply(HttpUrlConnector.java:227)
+		at org.glassfish.jersey.client.ClientRuntime.invoke(ClientRuntime.java:225)
+		at org.glassfish.jersey.client.JerseyInvocation$2.call(JerseyInvocation.java:671)
+		at org.glassfish.jersey.internal.Errors.process(Errors.java:315)
+		at org.glassfish.jersey.internal.Errors.process(Errors.java:297)
+		at org.glassfish.jersey.internal.Errors.process(Errors.java:228)
+		at org.glassfish.jersey.process.internal.RequestScope.runInScope(RequestScope.java:423)
+		at org.glassfish.jersey.client.JerseyInvocation.invoke(JerseyInvocation.java:667)
+		at org.glassfish.jersey.client.JerseyInvocation$Builder.method(JerseyInvocation.java:396)
+		at org.glassfish.jersey.client.JerseyInvocation$Builder.get(JerseyInvocation.java:296)
+		at org.example.prime.SharingUnit.getListFromPort(SharingUnit.java:74)
+		at org.example.prime.SharingUnit.refresh(SharingUnit.java:59)
+		at org.example.prime.SharingUnit.lambda$startAutoRefresh$0(SharingUnit.java:42)
+		at java.base/java.lang.Thread.run(Thread.java:1583)
+11-Dec-2023 19:40:45.385 INFO [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load [org.glassfish.jersey.client.JerseyInvocation$1]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load [org.glassfish.jersey.client.JerseyInvocation$1]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1349)
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForClassLoading(WebappClassLoaderBase.java:1337)
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1174)
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1141)
+		at org.glassfish.jersey.client.JerseyInvocation.<init>(JerseyInvocation.java:90)
+		at org.glassfish.jersey.client.JerseyInvocation$Builder.method(JerseyInvocation.java:396)
+		at org.glassfish.jersey.client.JerseyInvocation$Builder.get(JerseyInvocation.java:296)
+		at org.example.prime.SharingUnit.getListFromPort(SharingUnit.java:74)
+		at org.example.prime.SharingUnit.refresh(SharingUnit.java:59)
+		at org.example.prime.SharingUnit.lambda$startAutoRefresh$0(SharingUnit.java:42)
+		at java.base/java.lang.Thread.run(Thread.java:1583)
+11-Dec-2023 20:21:51.096 INFO [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load [org.glassfish.jersey.process.internal.RequestScope$1]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load [org.glassfish.jersey.process.internal.RequestScope$1]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1349)
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForClassLoading(WebappClassLoaderBase.java:1337)
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1174)
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1141)
+		at org.glassfish.jersey.process.internal.RequestScope$Instance.<init>(RequestScope.java:433)
+		at org.glassfish.jersey.process.internal.RequestScope.createInstance(RequestScope.java:276)
+		at org.glassfish.jersey.process.internal.RequestScope.runInScope(RequestScope.java:420)
+		at org.glassfish.jersey.client.JerseyInvocation.invoke(JerseyInvocation.java:667)
+		at org.glassfish.jersey.client.JerseyInvocation$Builder.method(JerseyInvocation.java:396)
+		at org.glassfish.jersey.client.JerseyInvocation$Builder.get(JerseyInvocation.java:296)
+		at org.example.prime.SharingUnit.getListFromPort(SharingUnit.java:74)
+		at org.example.prime.SharingUnit.refresh(SharingUnit.java:59)
+		at org.example.prime.SharingUnit.lambda$startAutoRefresh$0(SharingUnit.java:42)
+		at java.base/java.lang.Thread.run(Thread.java:1583)
+11-Dec-2023 20:25:32.234 INFO [Thread-3] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load [org.glassfish.jersey.client.JerseyInvocation$1]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load [org.glassfish.jersey.client.JerseyInvocation$1]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1349)
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForClassLoading(WebappClassLoaderBase.java:1337)
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1174)
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1141)
+		at org.glassfish.jersey.client.JerseyInvocation.<init>(JerseyInvocation.java:90)
+		at org.glassfish.jersey.client.JerseyInvocation$Builder.method(JerseyInvocation.java:396)
+		at org.glassfish.jersey.client.JerseyInvocation$Builder.get(JerseyInvocation.java:296)
+		at org.example.prime.SharingUnit.getListFromPort(SharingUnit.java:74)
+		at org.example.prime.SharingUnit.refresh(SharingUnit.java:59)
+		at org.example.prime.SharingUnit.lambda$startAutoRefresh$0(SharingUnit.java:42)
+		at java.base/java.lang.Thread.run(Thread.java:1583)
+11-Dec-2023 21:21:42.793 INFO [Thread-3] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load [org.glassfish.jersey.process.internal.RequestScope$1]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load [org.glassfish.jersey.process.internal.RequestScope$1]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1349)
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForClassLoading(WebappClassLoaderBase.java:1337)
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1174)
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1141)
+		at org.glassfish.jersey.process.internal.RequestScope$Instance.<init>(RequestScope.java:433)
+		at org.glassfish.jersey.process.internal.RequestScope.createInstance(RequestScope.java:276)
+		at org.glassfish.jersey.process.internal.RequestScope.runInScope(RequestScope.java:420)
+		at org.glassfish.jersey.client.JerseyInvocation.invoke(JerseyInvocation.java:667)
+		at org.glassfish.jersey.client.JerseyInvocation$Builder.method(JerseyInvocation.java:396)
+		at org.glassfish.jersey.client.JerseyInvocation$Builder.get(JerseyInvocation.java:296)
+		at org.example.prime.SharingUnit.getListFromPort(SharingUnit.java:74)
+		at org.example.prime.SharingUnit.refresh(SharingUnit.java:59)
+		at org.example.prime.SharingUnit.lambda$startAutoRefresh$0(SharingUnit.java:42)
+		at java.base/java.lang.Thread.run(Thread.java:1583)
+11-Dec-2023 21:23:21.743 INFO [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load [org.glassfish.jersey.client.JerseyInvocation$1]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load [org.glassfish.jersey.client.JerseyInvocation$1]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1349)
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForClassLoading(WebappClassLoaderBase.java:1337)
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1174)
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1141)
+		at org.glassfish.jersey.client.JerseyInvocation.<init>(JerseyInvocation.java:90)
+		at org.glassfish.jersey.client.JerseyInvocation$Builder.method(JerseyInvocation.java:396)
+		at org.glassfish.jersey.client.JerseyInvocation$Builder.get(JerseyInvocation.java:296)
+		at org.example.prime.SharingUnit.getListFromPort(SharingUnit.java:74)
+		at org.example.prime.SharingUnit.refresh(SharingUnit.java:59)
+		at org.example.prime.SharingUnit.lambda$startAutoRefresh$0(SharingUnit.java:42)
+		at java.base/java.lang.Thread.run(Thread.java:1583)
+11-Dec-2023 22:06:06.254 INFO [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load [org.glassfish.jersey.process.internal.RequestScope$1]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load [org.glassfish.jersey.process.internal.RequestScope$1]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1349)
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForClassLoading(WebappClassLoaderBase.java:1337)
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1174)
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1141)
+		at org.glassfish.jersey.process.internal.RequestScope$Instance.<init>(RequestScope.java:433)
+		at org.glassfish.jersey.process.internal.RequestScope.createInstance(RequestScope.java:276)
+		at org.glassfish.jersey.process.internal.RequestScope.runInScope(RequestScope.java:420)
+		at org.glassfish.jersey.client.JerseyInvocation.invoke(JerseyInvocation.java:667)
+		at org.glassfish.jersey.client.JerseyInvocation$Builder.method(JerseyInvocation.java:396)
+		at org.glassfish.jersey.client.JerseyInvocation$Builder.get(JerseyInvocation.java:296)
+		at org.example.prime.SharingUnit.getListFromPort(SharingUnit.java:74)
+		at org.example.prime.SharingUnit.refresh(SharingUnit.java:59)
+		at org.example.prime.SharingUnit.lambda$startAutoRefresh$0(SharingUnit.java:42)
+		at java.base/java.lang.Thread.run(Thread.java:1583)
